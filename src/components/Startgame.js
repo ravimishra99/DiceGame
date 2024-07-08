@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from "styled-components";
 import { Button } from '../styled/Button';
+
+
 const Startgame = ({toggle}) => {
   return (
     <Container>
       <div>
-      <img src='/dices.png' />
+      <img src='/dices.png' alt="dices" />
       </div>
       <div className='content'>
         <h1>Dice Game</h1>
